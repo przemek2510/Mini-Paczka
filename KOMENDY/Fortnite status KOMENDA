@@ -1,0 +1,72 @@
+{
+  "name": "fortnitestatus",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "MEcjx",
+  "actions": [
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "💻**Sprawdzam status gry Fortnite**...",
+      "storage": "1",
+      "varName2": "msg",
+      "name": "Send Message"
+    },
+    {
+      "time": "1",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "msg",
+      "name": "Delete Message"
+    },
+    {
+      "token": "",
+      "user": "",
+      "pass": "",
+      "url": "https://lightswitch-public-service-prod06.ol.epicgames.com/lightswitch/api/service/bulk/status?serviceId=Fortnite",
+      "path": "",
+      "storage": "1",
+      "varName": "json",
+      "debugMode": "1",
+      "headers": "",
+      "name": "Store Json From WebAPI"
+    },
+    {
+      "behavior": "0",
+      "jsonObjectVarName": "json",
+      "path": "$.[0].status",
+      "storage": "1",
+      "varName": "json-status",
+      "name": "Parse From Stored Json"
+    },
+    {
+      "title": "**Status Fortnite:**",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "false",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "message": "**${tempVars(\"json-status\")}**",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
