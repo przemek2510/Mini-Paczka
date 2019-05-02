@@ -38,3 +38,4 @@ Bot wysyła losowa lokacje z Fortnite po Polsku przydaje sie np. do  róznych ch
 <strong>● Member leave</strong>
 
 <strong>● Powitalna wiadomość</strong>
+<h3>Autorem paczki jest: 𝙥𝙧𝙯𝟯𝙢𝙚𝙠#2073</h3>
