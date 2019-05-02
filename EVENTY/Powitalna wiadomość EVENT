@@ -1,0 +1,16 @@
+{
+  "name": "wiadomość powitalna",
+  "temp": "mention",
+  "event-type": "6",
+  "_id": "vOGeC",
+  "actions": [
+    {
+      "channel": "5",
+      "varName": "mention",
+      "message": "${serverVars(\"wiadomość\")}",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}
