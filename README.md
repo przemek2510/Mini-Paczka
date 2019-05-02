@@ -38,6 +38,9 @@ Bot wysyła losowa lokacje z Fortnite po Polsku przydaje sie np. do  róznych ch
 <strong>● Member leave</strong>
 
 <strong>● Powitalna wiadomość</strong>
-<strong>Jeśli masz jakieś problemy lub nie dziala ci komenda lub event to napoisz do 𝙥𝙧𝙯𝟯𝙢𝙚𝙠#2073 na discordzie!</strong>
+
+<h2>Jeśli masz jakieś problemy lub nie dziala ci komenda lub event to napoisz do 𝙥𝙧𝙯𝟯𝙢𝙚𝙠#2073 na discordzie!</h2>
+
 <h3>Żeby komedny dzałały sa potrzebne mody i beta!</h3>
+
 <h3>Autorem paczki jest: 𝙥𝙧𝙯𝟯𝙢𝙚𝙠#2073</h3>
