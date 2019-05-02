@@ -14,7 +14,7 @@ np.Witamy na serwerze. Życzymy Miłej Zabawy!
 
 <strong>3) Slowmode</strong>
 
-Kiedy wpiszemy slowmode i czas to będziemy mogli pisać co kilka sekunD dopóki nie skończy sie nasz ustalony czas
+Kiedy wpiszemy slowmode i czas to będziemy mogli pisać co kilka sekund dopóki nie skończy sie nasz ustalony czas
 
 
 <strong>4) Fortnite sklep</strong>
